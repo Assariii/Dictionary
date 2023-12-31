@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(196, 157, 251);
+}
+
+
+.container{
+    background-color: whitesmoke;
+    width: 80vmin;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+.content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.search-box{
+    margin: 20px 10px 10px 120px;
+    height: 50px;
+    width: 380px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(196, 157, 251);
+
+    border-radius: 13px;
+}
+.search-btn{
+    height: 50px;
+    width: 80px;
+    border: 2px solid rgb(196, 157, 251);
+    border-radius: 8px;
+}
+.word{
+    font-family:sans-serif;
+    padding-top: 40px;
+    padding-left: 120px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.typeOfWord{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding-left: 120px;
+    padding-top: 5px;
+}
+.meanning{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-top: 15px;
+}
+.sym{
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-top: 10px;
+    
+}
+.sym1{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    border-left: 3px solid rgb(196, 157, 251);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="content">
+        <form action="/submit" method="POST">
+            <label for="idInput"></label>
+            <input type="text" name="word" class="search-box" placeholder="Search here" id="idInput">
+            <input type="submit" value="Search" class="search-btn">
+          </form>
+          
+            <% if(locals.word){ %>
+                <section class="word"><h1> <%= word %> </h1></section>
+                
+                <section class="typeOfWord"><p> <%= type %></p></section>
+                
+                <section class="meanning"><p> <%= mean %> </p></section>
+                <section class="sym">
+                    <div class="sym1"> <%= sym %></div>
+                </section>
+
+                <% }else{ %>
+       
+            <% } %>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
